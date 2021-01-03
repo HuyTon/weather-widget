@@ -10,14 +10,27 @@ The widget will have the following functionalities:
 - Showing every weather forecast details
 - Handling the error state if the city not found.
 
+# Technical library
+The source code is already set up with the following libraries:
+- React Redux and relevant libraries
+- Styled Components
+- Axios
+- MomentJs
+- React Testing Library
+
+# References
+- Current Weather: ​https://openweathermap.org/current
+- One Call API: ​https://openweathermap.org/api/one-call-api
+- Weather conditions & icons: ​https://openweathermap.org/weather-conditions
+
 # Install packages and run demo
 npm install\
 npm start
 
 # Demo pictures
 
-![canvas0](https://user-images.githubusercontent.com/29830442/87759801-70da3700-c841-11ea-8bc3-960e77c3ae3e.png)
+![canvas0](https://user-images.githubusercontent.com/29830442/103472226-19fff400-4dc6-11eb-8723-0908494a8ebc.png)
 
-![canvas1](https://user-images.githubusercontent.com/29830442/87759832-7c2d6280-c841-11ea-8fb4-f3830b8fe668.png)
+![canvas1](https://user-images.githubusercontent.com/29830442/103472228-21bf9880-4dc6-11eb-827f-a45781ccd8b5.png)
 
-![canvas2](https://user-images.githubusercontent.com/29830442/87759844-80598000-c841-11ea-92fb-e0392ac4f1be.png)
+![canvas2](https://user-images.githubusercontent.com/29830442/103472229-24ba8900-4dc6-11eb-90c5-48b52c1dcefc.png)
