@@ -29,8 +29,8 @@ npm start
 
 # Demo pictures
 
-![canvas0](https://user-images.githubusercontent.com/29830442/103472226-19fff400-4dc6-11eb-8723-0908494a8ebc.png)
+![canvas0](https://user-images.githubusercontent.com/29830442/103472273-9c88b380-4dc6-11eb-812c-b1281377161f.png)
 
-![canvas1](https://user-images.githubusercontent.com/29830442/103472228-21bf9880-4dc6-11eb-827f-a45781ccd8b5.png)
+![canvas1](https://user-images.githubusercontent.com/29830442/103472229-24ba8900-4dc6-11eb-90c5-48b52c1dcefc.png)
 
-![canvas2](https://user-images.githubusercontent.com/29830442/103472229-24ba8900-4dc6-11eb-90c5-48b52c1dcefc.png)
+![canvas2](https://user-images.githubusercontent.com/29830442/103472228-21bf9880-4dc6-11eb-827f-a45781ccd8b5.png)
