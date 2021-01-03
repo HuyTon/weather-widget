@@ -2,7 +2,7 @@
 A small weather widget that displays the current weather conditions
 and some weather forecast data. Use the APIs provided by the OpenWeatherMap.
 
-# Requirements
+# Features
 The widget will have the following functionalities:
 - A search box to find the weather information of a city
 - Handling the loading state while fetching data from API
