@@ -1,0 +1,61 @@
+.spinner {
+  position: absolute;
+  /* Start settings for spinner within a screen */
+  /* left: 50%;
+  top: 50%; 
+  margin:0px auto; */
+  /* End of settings for spinner within a screen */
+  /*********************************************** 
+  Start settings for spinner within a div.
+  This spinner need to place inside a div has class
+  name is .infoBoard .wrapper 
+  ***********************************************/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:60px;
+  width:60px;  
+  margin: auto;
+  /*********************************************** 
+  End of settings for spinner within a div 
+  ***********************************************/
+  -webkit-animation: rotation .6s infinite linear;
+  -moz-animation: rotation .6s infinite linear;
+  -o-animation: rotation .6s infinite linear;
+  animation: rotation .6s infinite linear;
+  border-left:6px solid rgba(0,174,239,.15);
+  border-right:6px solid rgba(0,174,239,.15);
+  border-bottom:6px solid rgba(0,174,239,.15);
+  border-top:6px solid rgba(0,174,239,.8);
+  border-radius:100%;
+}
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(359deg);}
+}
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@-moz-keyframes rotation {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+  from {-o-transform: rotate(0deg);}
+  to {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
+}
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
